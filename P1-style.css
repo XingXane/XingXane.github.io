@@ -1,0 +1,67 @@
+style.css
+
+body {
+  font-family: system-ui;
+  background: #1e1e1e;
+  color: grey;
+  text-align: center;
+}
+
+h1 {
+  color: red;
+  font-family: brush script mt, monospce;
+  text-shadow: 2px 2px 5px black;
+  font-size: 20px;
+  opacity: 0.8;
+}
+
+.box-shadow {
+ box-shadow: .75em .75em 1em;
+ color: orange;
+ padding: 25px;
+ margin: ;
+}
+
+h2 {
+  color: yellow;
+  font-size: 20px;
+  font-family: bradley hand, monospace;
+  text-shadow: 2px 2px 5px black;
+  opacity: 0.6;
+}
+
+main {
+  color: green;
+  border: 3px solid purple;
+  padding: 10px;
+  background-color: gold;
+  height: 100px;
+  opacity: 0.8;
+  
+}
+
+p2 {
+  color: skyblue;
+  text-align: center;
+}
+
+ul {
+  color: blue;
+  justify-content: center;
+}
+
+p3 {
+  color: purple;
+}
+
+ a {
+  color: pink;
+}
+
+hr {
+  color: purple;
+}
+
+
+  
+  
