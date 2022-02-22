@@ -1,66 +1,55 @@
-style.css
-
+html {
+  line-height: 1.15;
+  text-align: center;
+}
 body {
-  font-family: system-ui;
-  background: #1e1e1e;
-  color: grey;
-  text-align: center;
+  margin: 0;
+   margin-top: 0px;
+   margin-right: 0px;
+   margin-bottom: 0px;
+   margin-left: 0px;
+  font-family: Times New Roman, Helvetica, sans serif;
+  background-image: url(https://i.postimg.cc/vZxjgJwm/sea-edge-background.png)
 }
-
-h1 {
-  color: red;
-  font-family: brush script mt, monospce;
-  text-shadow: 2px 2px 5px black;
-  font-size: 20px;
-  opacity: 0.8;
-}
-
-.box-shadow {
- box-shadow: .75em .75em 1em;
- color: orange;
- padding: 25px;
- margin: ;
-}
-
-h2 {
-  color: yellow;
-  font-size: 20px;
-  font-family: bradley hand, monospace;
-  text-shadow: 2px 2px 5px black;
-  opacity: 0.6;
-}
-
 main {
-  color: green;
-  border: 3px solid purple;
-  padding: 10px;
-  background-color: gold;
-  height: 100px;
-  opacity: 0.8;
-  
+  padding: 20px 0;
+   padding-top: 20px;
+   padding-right: 0px;
+   padding-bottom: 20px;
+   padding-left: 0px;
+}
+main {
+  display: block;
+}
+section.light-background{
+  background-color: skyblue;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  margin: 75px, 0;
+}
+.group{
+  display: flex;
+  flex-direction: column;
+}
+.entry {
+  flex: 1;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 0%;
+  margin: 10px;
+   margin-top: 10px;
+   margin-right: 10px;
+   margin-bottom: 10px;
+   margin left: 10px; 
+}
+a {
+  text-shadow: 2px 2px 5px gold;
 }
 
-p2 {
-  color: skyblue;
-  text-align: center;
+h2, h3, footer {
+  text-shadow: 2px 2px 5px black;
 }
 
-ul {
-  color: blue;
-  justify-content: center;
-}
-
-p3 {
-  color: purple;
-}
-
- a {
-  color: pink;
-}
-
-hr {
-  color: purple;
-}
 
 
   
