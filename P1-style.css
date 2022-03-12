@@ -1,60 +1,64 @@
 html {
-  line-height: 1.15;
-  text-align: center;
+	line-height: 1.15;
+	text-align: center;
 }
 /*---body and background---*/
 body {
-  margin: 0;
-   margin-top: 0px;
-   margin-right: 0px;
-   margin-bottom: 0px;
-   margin-left: 0px;
-  font-family: Times New Roman, Helvetica, sans serif;
-  background-image: url(https://i.postimg.cc/jdpSX8Pg/cool-background.png);
-    font-size: 17px;
+	margin: 0;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-family: Times New Roman, Helvetica, sans serif;
+	background-image: url(https://i.postimg.cc/jdpSX8Pg/cool-background.png);
+	font-size: 17px;
 }
 /*---main section with display and background color---*/
 main {
-  padding: 20px 0;
-   padding-top: 20px;
-   padding-right: 0px;
-   padding-bottom: 20px;
-   padding-left: 0px;
+	padding: 20px 0;
+	padding-top: 20px;
+	padding-right: 0px;
+	padding-bottom: 20px;
+	padding-left: 0px;
 }
 main {
-  display: block;
+	display: block;
 }
-section.light-background{
-  background-color: pink;
-  padding-top: 75px;
-  padding-bottom: 75px;
-  margin: 75px, 0;
+section.light-background {
+	background-color: pink;
+	padding-top: 75px;
+	padding-bottom: 75px;
+	margin: 75px 0;
 }
-h2, h3 {
-  text-shadow: 2px 2px 5px black;
-  font-size: 20px;
+h2,
+h3 {
+	text-shadow: 2px 2px 5px black;
+	font-size: 20px;
 }
 /*---footer section grouped with h2 and h3 for shadow effect---*/
-a, footer, ul {
-  text-shadow: 2px 2px 5px black;
-  font-size: 15px;
+a,
+footer,
+ul {
+	text-shadow: 2px 2px 5px black;
+	font-size: 15px;
 }
 hr {
-  color: red;
+	color: red;
 }
 ol {
-  text-shadow: 2px 2px 5px red;
-  font-size: 20px;
+	text-shadow: 2px 2px 5px red;
+	font-size: 20px;
 }
 /*---mouse over link---*/
 a:hover {
-  background-color: red;
+	background-color: red;
 }
 /*---unvisited link---*/
 a:link {
-  color: black;
+	color: black;
 }
 /*---visited link---*/
 a:visited {
-  color: yellow;
+	color: yellow;
 }
+
